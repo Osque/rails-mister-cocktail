@@ -1,15 +1,19 @@
 <h1 class= "text-center">Cocktails</h1>
 
-<div class="container text-center"></div>
-<% @cocktails.each do |cocktail| %>
-<h2 class= "text-center"><%= cocktail.name %>
-<%= link_to "&times;".html_safe, cocktail_path(cocktail), method: :delete, data: { confirm: "Are you sure?" } %>
+<div class="container text-center">
+  <% @cocktails.each do |cocktail| %>
+  <h2 class= "text-center"><%= cocktail.name %>
+    <%= link_to "&times;".html_safe, cocktail_path(cocktail), method: :delete, data: { confirm: "Are you sure?" } %>
 
 
-<%= link_to "See recipe", cocktail_path(cocktail.id), class: "btn btn-success" %>
-  <% end %>
-  <br>
-  <br>
-<%= link_to "New cocktail", new_cocktail_path, class: "btn btn-primary btn-lg" %>
-
+    <%= link_to "See recipe", cocktail_path(cocktail.id), class: "btn btn-success" %>
+    <% end %>
+    <br>
+    <br>
+    <%= link_to "New cocktail", new_cocktail_path, class: "btn btn-primary btn-lg" %>
+  </div>
 </div>
+
+<%= cl_image_tag("2-blackmagicmartini.jpg",
+width: 400, height: 300, crop: :fill) %>
+

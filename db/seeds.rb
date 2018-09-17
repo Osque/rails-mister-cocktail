@@ -10,484 +10,484 @@ Ingredient.destroy_all
 puts 'Creating ingredients...'
 ingredients_attributes = [
  {
-name: "Light rum"
+  name: "Light rum"
 },
 {
-name: "Applejack"
+  name: "Applejack"
 },
 {
-name: "Gin"
+  name: "Gin"
 },
 {
-name: "Dark rum"
+  name: "Dark rum"
 },
 {
-name: "Sweet Vermouth"
+  name: "Sweet Vermouth"
 },
 {
-name: "Strawberry schnapps"
+  name: "Strawberry schnapps"
 },
 {
-name: "Scotch"
+  name: "Scotch"
 },
 {
-name: "Apricot brandy"
+  name: "Apricot brandy"
 },
 {
-name: "Triple sec"
+  name: "Triple sec"
 },
 {
-name: "Southern Comfort"
+  name: "Southern Comfort"
 },
 {
-name: "Orange bitters"
+  name: "Orange bitters"
 },
 {
-name: "Brandy"
+  name: "Brandy"
 },
 {
-name: "Lemon vodka"
+  name: "Lemon vodka"
 },
 {
-name: "Blended whiskey"
+  name: "Blended whiskey"
 },
 {
-name: "Dry Vermouth"
+  name: "Dry Vermouth"
 },
 {
-name: "Amaretto"
+  name: "Amaretto"
 },
 {
-name: "Tea"
+  name: "Tea"
 },
 {
-name: "Champagne"
+  name: "Champagne"
 },
 {
-name: "Coffee liqueur"
+  name: "Coffee liqueur"
 },
 {
-name: "Bourbon"
+  name: "Bourbon"
 },
 {
-name: "Tequila"
+  name: "Tequila"
 },
 {
-name: "Vodka"
+  name: "Vodka"
 },
 {
-name: "Añejo rum"
+  name: "Añejo rum"
 },
 {
-name: "Bitters"
+  name: "Bitters"
 },
 {
-name: "Sugar"
+  name: "Sugar"
 },
 {
-name: "Kahlua"
+  name: "Kahlua"
 },
 {
-name: "demerara Sugar"
+  name: "demerara Sugar"
 },
 {
-name: "Dubonnet Rouge"
+  name: "Dubonnet Rouge"
 },
 {
-name: "Lime juice"
+  name: "Lime juice"
 },
 {
-name: "Irish whiskey"
+  name: "Irish whiskey"
 },
 {
-name: "Apple brandy"
+  name: "Apple brandy"
 },
 {
-name: "Carbonated water"
+  name: "Carbonated water"
 },
 {
-name: "Cherry brandy"
+  name: "Cherry brandy"
 },
 {
-name: "Creme de Cacao"
+  name: "Creme de Cacao"
 },
 {
-name: "Grenadine"
+  name: "Grenadine"
 },
 {
-name: "Port"
+  name: "Port"
 },
 {
-name: "Coffee brandy"
+  name: "Coffee brandy"
 },
 {
-name: "Red wine"
+  name: "Red wine"
 },
 {
-name: "Rum"
+  name: "Rum"
 },
 {
-name: "Grapefruit juice"
+  name: "Grapefruit juice"
 },
 {
-name: "Ricard"
+  name: "Ricard"
 },
 {
-name: "Sherry"
+  name: "Sherry"
 },
 {
-name: "Cognac"
+  name: "Cognac"
 },
 {
-name: "Sloe gin"
+  name: "Sloe gin"
 },
 {
-name: "Apple juice"
+  name: "Apple juice"
 },
 {
-name: "Pineapple juice"
+  name: "Pineapple juice"
 },
 {
-name: "Lemon juice"
+  name: "Lemon juice"
 },
 {
-name: "Sugar syrup"
+  name: "Sugar syrup"
 },
 {
-name: "Milk"
+  name: "Milk"
 },
 {
-name: "Strawberries"
+  name: "Strawberries"
 },
 {
-name: "Chocolate syrup"
+  name: "Chocolate syrup"
 },
 {
-name: "Yoghurt"
+  name: "Yoghurt"
 },
 {
-name: "Mango"
+  name: "Mango"
 },
 {
-name: "Ginger"
+  name: "Ginger"
 },
 {
-name: "Lime"
+  name: "Lime"
 },
 {
-name: "Cantaloupe"
+  name: "Cantaloupe"
 },
 {
-name: "Berries"
+  name: "Berries"
 },
 {
-name: "Grapes"
+  name: "Grapes"
 },
 {
-name: "Kiwi"
+  name: "Kiwi"
 },
 {
-name: "Tomato juice"
+  name: "Tomato juice"
 },
 {
-name: "Cocoa powder"
+  name: "Cocoa powder"
 },
 {
-name: "Chocolate"
+  name: "Chocolate"
 },
 {
-name: "Heavy cream"
+  name: "Heavy cream"
 },
 {
-name: "Galliano"
+  name: "Galliano"
 },
 {
-name: "Peach Vodka"
+  name: "Peach Vodka"
 },
 {
-name: "Ouzo"
+  name: "Ouzo"
 },
 {
-name: "Coffee"
+  name: "Coffee"
 },
 {
-name: "Spiced rum"
+  name: "Spiced rum"
 },
 {
-name: "Water"
+  name: "Water"
 },
 {
-name: "Espresso"
+  name: "Espresso"
 },
 {
-name: "Angelica root"
+  name: "Angelica root"
 },
 {
-name: "Orange"
+  name: "Orange"
 },
 {
-name: "Cranberries"
+  name: "Cranberries"
 },
 {
-name: "Johnnie Walker"
+  name: "Johnnie Walker"
 },
 {
-name: "Apple cider"
+  name: "Apple cider"
 },
 {
-name: "Everclear"
+  name: "Everclear"
 },
 {
-name: "Cranberry juice"
+  name: "Cranberry juice"
 },
 {
-name: "Egg yolk"
+  name: "Egg yolk"
 },
 {
-name: "Egg"
+  name: "Egg"
 },
 {
-name: "Grape juice"
+  name: "Grape juice"
 },
 {
-name: "Peach nectar"
+  name: "Peach nectar"
 },
 {
-name: "Lemon"
+  name: "Lemon"
 },
 {
-name: "Firewater"
+  name: "Firewater"
 },
 {
-name: "Lemonade"
+  name: "Lemonade"
 },
 {
-name: "Lager"
+  name: "Lager"
 },
 {
-name: "Whiskey"
+  name: "Whiskey"
 },
 {
-name: "Absolut Citron"
+  name: "Absolut Citron"
 },
 {
-name: "Pisco"
+  name: "Pisco"
 },
 {
-name: "Irish cream"
+  name: "Irish cream"
 },
 {
-name: "Ale"
+  name: "Ale"
 },
 {
-name: "Chocolate liqueur"
+  name: "Chocolate liqueur"
 },
 {
-name: "Midori melon liqueur"
+  name: "Midori melon liqueur"
 },
 {
-name: "Sambuca"
+  name: "Sambuca"
 },
 {
-name: "Cider"
+  name: "Cider"
 },
 {
-name: "Sprite"
+  name: "Sprite"
 },
 {
-name: "7-Up"
+  name: "7-Up"
 },
 {
-name: "Blackberry brandy"
+  name: "Blackberry brandy"
 },
 {
-name: "Peppermint schnapps"
+  name: "Peppermint schnapps"
 },
 {
-name: "Creme de Cassis"
+  name: "Creme de Cassis"
 },
 {
-name: "Jack Daniels"
+  name: "Jack Daniels"
 },
 {
-name: "Bailey's irish cream"
+  name: "Bailey's irish cream"
 },
 {
-name: "151 proof rum"
+  name: "151 proof rum"
 },
 {
-name: "Absolut Vodka"
+  name: "Absolut Vodka"
 },
 {
-name: "Goldschlager"
+  name: "Goldschlager"
 },
 {
-name: "Crown Royal"
+  name: "Crown Royal"
 },
 {
-name: "Cointreau"
+  name: "Cointreau"
 },
 {
-name: "Vermouth"
+  name: "Vermouth"
 },
 {
-name: "Advocaat"
+  name: "Advocaat"
 },
 {
-name: "Absolut Kurant"
+  name: "Absolut Kurant"
 },
 {
-name: "Beer"
+  name: "Beer"
 },
 {
-name: "Kool-Aid"
+  name: "Kool-Aid"
 },
 {
-name: "Cherry Heering"
+  name: "Cherry Heering"
 },
 {
-name: "White Creme de Menthe"
+  name: "White Creme de Menthe"
 },
 {
-name: "Malibu rum"
+  name: "Malibu rum"
 },
 {
-name: "Vanilla vodka"
+  name: "Vanilla vodka"
 },
 {
-name: "Jägermeister"
+  name: "Jägermeister"
 },
 {
-name: "Kiwi liqueur"
+  name: "Kiwi liqueur"
 },
 {
-name: "Grand Marnier"
+  name: "Grand Marnier"
 },
 {
-name: "Cachaca"
+  name: "Cachaca"
 },
 {
-name: "Peachtree schnapps"
+  name: "Peachtree schnapps"
 },
 {
-name: "Wild Turkey"
+  name: "Wild Turkey"
 },
 {
-name: "Cranberry vodka"
+  name: "Cranberry vodka"
 },
 {
-name: "Corona"
+  name: "Corona"
 },
 {
-name: "Orange juice"
+  name: "Orange juice"
 },
 {
-name: "Yukon Jack"
+  name: "Yukon Jack"
 },
 {
-name: "Chocolate ice-cream"
+  name: "Chocolate ice-cream"
 },
 {
-name: "Coconut rum"
+  name: "Coconut rum"
 },
 {
-name: "Banana liqueur"
+  name: "Banana liqueur"
 },
 {
-name: "Black Sambuca"
+  name: "Black Sambuca"
 },
 {
-name: "Hot Damn"
+  name: "Hot Damn"
 },
 {
-name: "Mint"
+  name: "Mint"
 },
 {
-name: "Campari"
+  name: "Campari"
 },
 {
-name: "Ice"
+  name: "Ice"
 },
 {
-name: "Sour mix"
+  name: "Sour mix"
 },
 {
-name: "Absinthe"
+  name: "Absinthe"
 },
 {
-name: "Whisky"
+  name: "Whisky"
 },
 {
-name: "Guinness stout"
+  name: "Guinness stout"
 },
 {
-name: "Vanilla ice-cream"
+  name: "Vanilla ice-cream"
 },
 {
-name: "Chambord raspberry liqueur"
+  name: "Chambord raspberry liqueur"
 },
 {
-name: "Jim Beam"
+  name: "Jim Beam"
 },
 {
-name: "Godiva liqueur"
+  name: "Godiva liqueur"
 },
 {
-name: "Fruit punch"
+  name: "Fruit punch"
 },
 {
-name: "Baileys irish cream"
+  name: "Baileys irish cream"
 },
 {
-name: "Zima"
+  name: "Zima"
 },
 {
-name: "Blue Curacao"
+  name: "Blue Curacao"
 },
 {
-name: "Coca-Cola"
+  name: "Coca-Cola"
 },
 {
-name: "Maui"
+  name: "Maui"
 },
 {
-name: "Frangelico"
+  name: "Frangelico"
 },
 {
-name: "Bacardi Limon"
+  name: "Bacardi Limon"
 },
 {
-name: "Raspberry vodka"
+  name: "Raspberry vodka"
 },
 {
-name: "Green Creme de Menthe"
+  name: "Green Creme de Menthe"
 },
 {
-name: "Lemon peel"
+  name: "Lemon peel"
 },
 {
-name: "Prosecco"
+  name: "Prosecco"
 },
 {
-name: "White Rum"
+  name: "White Rum"
 },
 {
-name: "Mezcal"
+  name: "Mezcal"
 },
 {
-name: "Green Chartreuse"
+  name: "Green Chartreuse"
 },
 {
-name: "Grape Soda"
+  name: "Grape Soda"
 },
 {
-name: "Hot Chocolate"
+  name: "Hot Chocolate"
 },
 {
-name: "Blended Scotch"
+  name: "Blended Scotch"
 },
 {
-name: "Rye whiskey"
+  name: "Rye whiskey"
 }
 ]
 Ingredient.create!(ingredients_attributes)
